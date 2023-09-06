@@ -13,6 +13,6 @@ void main(List<String> args) {
 }
 ```
 -> Hasil Eksekusi <br>
-![screenshot](https://myoctocat.com/assets/images/base-octocat.svg)
+![screenshot](week-02/docs/tugas-02.png)
 
 
