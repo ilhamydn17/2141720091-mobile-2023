@@ -4,4 +4,11 @@ Kelas : TI-3H <br>
 NIM   : 2141720091 <br> <br>
 
 => Tugas 1 
+```
+void main(List<String> args) {
+  for (int i = 18; i >= 9; i--) {
+    print('Nama saya adalah Fulan, sekarang berumur $i tahun');
+  }
+}
+```
 
