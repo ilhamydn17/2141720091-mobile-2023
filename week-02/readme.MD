@@ -13,6 +13,6 @@ void main(List<String> args) {
 }
 ```
 -> Hasil Eksekusi <br>
-![screenshot](week-02/docs/tugas-02.png)
+![screenshot](docs/tugas-02.png)
 
 
