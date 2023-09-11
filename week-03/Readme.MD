@@ -29,7 +29,7 @@ String test = "true";
     print("Kebenaran");
   }
 ```
-Hasil : <br>
+Hasil : 
 ![Output!](/week-03/docs/praktikum-1_2.png) <br>
 
 
