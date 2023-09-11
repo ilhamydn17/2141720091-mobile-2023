@@ -49,4 +49,15 @@ Hasil : <br>
 ![Output!](/week-03/docs/praktikum-2_1.png) <br>
 Penjelasan : <br>
 Pada blok kode program tersebut merupakan perintah yang menggunakan while loop, yang mana dalam looping yang bertipe ini akan mengecek kondisi terlebih dahulu kemudian menjalankan perintah selanjutnya jika pengecekan bernilai true. Pada while loop, perlu diinisialisasikan terlebih dahulu sebelum blok kode looping variabel iterasinya, yang mana variabel iterasinya adalah "counter". Variabel iterasi tersebut berfungsi sebagai limit/batas dalam melakukan looping.<br>
+
 ### Part 2
+Kode Program : <br>
+```
+int counter = 0;
+do {
+    print(counter);
+    counter++;
+} while (counter < 77);
+```
+Hasil : <br>
+![Output!](/week-03/docs/praktikum-2_2.png) <br>
