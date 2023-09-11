@@ -63,3 +63,6 @@ Hasil : <br>
 ![Output!](/week-03/docs/praktikum-2_2.png) <br>
 Penjelasan : <br>
 Pada blok kode program tersebut menggunakan do..while.. loop, yang mana pada looping ini, kode akan dieksekusi terlebih dahulu (do) kemudian dilakukan pengecekan (while), maka dari itu ketika pengecekan yang bernilai false sekalipun akan dijalankan setidaknya sekali sebelum dilakukan pengecekan dibawahnya dilakukan.
+
+## Praktikum 3
+### Part 1
