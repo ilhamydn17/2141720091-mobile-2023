@@ -11,10 +11,10 @@ void main(List<String> args) {
   // }
   // if (test == "test2") print("Test2 again");
   // --> Part 2
-  // String test = "true";
-  // if (test) {
-  //   print("Kebenaran");
-  // }
+  String test = "true";
+  if (test) {
+    print("Kebenaran");
+  }
 
   // ==> PRAKTIKUM 2
   // --> Part 1
