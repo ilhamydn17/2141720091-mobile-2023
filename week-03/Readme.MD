@@ -45,5 +45,5 @@ int counter = 0;
     counter++;
   }
 ```
-Hasil : 
+Hasil : <br>
 ![Output!](/week-03/docs/praktikum-2_1.png) <br>
