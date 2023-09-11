@@ -30,6 +30,6 @@ String test = "true";
   }
 ```
 Hasil : 
-![Output!](/week-03/docs/praktikum-1_2.png) <br>
+![Output!](/week-03/docs/praktikum-1_3.png) <br>
 
 
