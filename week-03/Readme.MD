@@ -3,7 +3,7 @@ NIM   : 2141720091 <br>
 Kelas : TI-3H <br>
 
 
-<p style="text-align: center;">Week 02 - Control Flow</p>
+# Week 02 - Control Flow
 
 
 ## Praktikum 1
