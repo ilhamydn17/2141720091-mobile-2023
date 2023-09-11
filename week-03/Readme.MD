@@ -95,3 +95,7 @@ for (int index = 10; index < 27; index++) {
 ```
 Hasil : <br>
 ![Output!](/week-03/docs/praktikum-3_3.png) <br>
+Penjelasan : <br>
+Pada blok kode for.. loop tersebut terdapat perintah pengecekan kondisi didalamnya, yaitu : <br>
+- Jika index bernilai 21, maka berhenti / keluar dari perulangan (break)<br>
+- dan jika index bernilai lebih dari 1 atau kurang dari 7 maka lompati iterasinya, namum pada pengecekan ini tidak ada yg dieksekusi karena nilai awalnya berawal dari 10.
