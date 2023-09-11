@@ -32,9 +32,18 @@ String test = "true";
 Hasil : 
 ![Output!](/week-03/docs/praktikum-1_3.png) <br>
 Penjelasan : <br>
-Pada kode tersebut akan menghasilkan error ketika program dijalankan, karena dalam pengecekan if..else.. membutuhkan tipe data boolean(true/false). Pada blok kode tersebut variabel true bertipe string bukan boolean.
+Pada kode tersebut akan menghasilkan error ketika program dijalankan, karena dalam pengecekan if..else.. membutuhkan tipe data boolean(true/false). Pada blok kode tersebut variabel yang bernama "test" bertipe string bukan boolean.
 <br>
 
 ## Praktikum 2
-
-
+### Part 1
+Kode Program : <br>
+```
+int counter = 0;
+  while (counter < 33) {
+    print(counter);
+    counter++;
+  }
+```
+Hasil : 
+![Output!](/week-03/docs/praktikum-2_1.png) <br>
