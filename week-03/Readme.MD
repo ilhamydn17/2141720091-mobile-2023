@@ -17,4 +17,5 @@ String test = "test2";
   if (test == "test2") print("Test2 again");
 ```
 Hasil :
+![Output!](/week-02/docs/praktikum-1_1.png)
 
