@@ -11,17 +11,17 @@ void main(List<String> args) {
   // }
   // if (test == "test2") print("Test2 again");
   // --> Part 2
-  String test = "true";
-  if (test) {
-    print("Kebenaran");
-  }
+  // String test = "true";
+  // if (test) {
+  //   print("Kebenaran");
+  // }
 
   // ==> PRAKTIKUM 2
   // --> Part 1
   // int counter = 0;
   // while (counter < 33) {
-  // print(counter);
-  // counter++;
+  //   print(counter);
+  //   counter++;
   // }
   // --> Part 2
   // do {
@@ -45,5 +45,22 @@ void main(List<String> args) {
   //   else if (index > 1 || index < 7) continue;
   //   print(index);
   // }
-  
+
+
+  // ==> Tugas Praktikum 
+  for (int angka = 0; angka <= 201; angka++) {
+    bool primaCheck = true;
+    for (int i = 2; i < angka; i++) {
+      if (angka % i == 0) {
+        primaCheck = false;
+        break;
+      }
+    }
+    if (primaCheck) {
+      print("[$angka] Ilham Yudantyo, 2141720091");
+    }
+  }
+
 }
+ 
+
