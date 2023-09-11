@@ -107,5 +107,6 @@ Pada blok kode for.. loop tersebut terdapat perintah pengecekan kondisi didalamn
 ## Tugas Praktikum 
 Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda. <br><br>
 Kode Program : <br>
+![Output!](/week-03/docs/tugas-praktikum-kode.png) <br>
 
 
