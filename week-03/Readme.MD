@@ -66,3 +66,11 @@ Pada blok kode program tersebut menggunakan do..while.. loop, yang mana pada loo
 
 ## Praktikum 3
 ### Part 1
+Kode Program : <br>
+```
+for (int index = 10; index < 27; index) {
+    print(index);
+  }
+```
+Hasil : <br>
+![Output!](/week-03/docs/praktikum-3_1.png) <br>
