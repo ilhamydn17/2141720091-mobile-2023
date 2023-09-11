@@ -2,9 +2,9 @@ Nama  : Ilham Yudantyo <br>
 NIM   : 2141720091 <br>
 Kelas : TI-3H <br>
 
-<center>
+
 <h1 style="text-align: center;">Week 02 - Control Flow</h1>
-</center>
+
 
 ## Praktikum 1
 ### Part 1
