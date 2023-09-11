@@ -31,5 +31,7 @@ String test = "true";
 ```
 Hasil : 
 ![Output!](/week-03/docs/praktikum-1_3.png) <br>
+Penjelasan : <br>
+Pada kode tersebut akan menghasilkan error ketika program dijalankan, karena dalam pengecekan if..else.. membutuhkan tipe data boolean(true/false). Pada blok kode tersebut variabel true bertipe string bukan boolean.
 
 
