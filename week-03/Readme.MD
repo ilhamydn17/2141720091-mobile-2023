@@ -75,4 +75,10 @@ for (int index = 10; index < 27; index) {
 Hasil : <br>
 ![Output!](/week-03/docs/praktikum-3_1.png) <br>
 Penjelasan : <br>
-Pada blok kode program tersebut merupakan for.. loop, yang akan menampilkan angka disetiap iterasinya. Namun, perulangan ini tidak memiliki limit atau batas yang menyebabkan looping berjalan terus menerus dan harus dipaksa untuk stop looping dari terminal. Hal tersebut dikarenakan tidak didefinisikannya operasi iterasi untuk for.. loop tersebut, ketika dilakukan pengecekan kondisi pada looping tersebut akan menghasilkan true terus menerus.
+Pada blok kode program tersebut merupakan for.. loop, yang akan menampilkan angka disetiap iterasinya. Namun, perulangan ini tidak memiliki limit atau batas yang menyebabkan looping berjalan terus menerus dan harus dipaksa untuk stop looping dari terminal. Hal tersebut dikarenakan tidak didefinisikannya operasi iterasi untuk for.. loop tersebut, maka ketika dilakukan pengecekan kondisi pada looping tersebut akan menghasilkan true terus menerus. 
+Perbaikan untuk kode program tersebut adalah seperti dibawah ini.
+```
+for (int index = 10; index < 27; index++) {
+    print(index);
+  }
+```
