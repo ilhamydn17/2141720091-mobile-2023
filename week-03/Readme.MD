@@ -110,5 +110,6 @@ Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai
 ![Output!](/week-03/docs/tugas-praktikum-kode.png) <br>
 *Output Program :* <br>
 ![Output!](/week-03/docs/tugas-praktikum-jawaban.png) <br>
-
+**Penjelasan : **
+Pada kode program tersebut menggunakan nested for loop. Inner loop digunakan sebagai blok kode program yang digunakan untuk melakukan pengecekan bilangan prima.
 
