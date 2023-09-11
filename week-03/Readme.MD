@@ -82,3 +82,16 @@ for (int index = 10; index < 27; index++) {
     print(index);
   }
 ```
+
+## Part 2 
+Kode Program : <br>
+```
+for (int index = 10; index < 27; index++) {
+    print(index);
+    if (index == 21) break;
+    else if (index > 1 || index < 7) continue;
+    print(index);
+}
+```
+Hasil : <br>
+![Output!](/week-03/docs/praktikum-3_3.png) <br>
