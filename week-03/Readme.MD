@@ -8,7 +8,7 @@ Kelas : TI-3H <br>
 
 ## Praktikum 1
 ### Part 1
-Kode Program :
+***Kode Program*** :
 ```
 String test = "test2";
   if (test == "test1") {
