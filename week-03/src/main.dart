@@ -1,20 +1,20 @@
 void main(List<String> args) {
   // ==> PRAKTIKUM 1
   // --> Part 1
-  // String test = "test2";
-  // if (test == "test1") {
-  //   print("Test1");
-  // } else if (test == "test2") {
-  //   print("Test2");
-  // } else {
-  //   print("Something else");
-  // }
-  // if (test == "test2") print("Test2 again");
+  String test = "test2";
+  if (test == "test1") {
+   print("Test1");
+  } else if (test == "test2") {
+   print("Test2");
+  } else {
+    print("Something else");
+  }
+  //if (test == "test2") print("Test2 again");
   // --> Part 2
-  // String test = "true";
-  // if (test) {
-  //   print("Kebenaran");
-  // }
+  //String test = "true";
+  //if (test) {
+  //print("Kebenaran");
+  //}
 
   // ==> PRAKTIKUM 2
   // --> Part 1
@@ -48,18 +48,18 @@ void main(List<String> args) {
 
 
   // ==> Tugas Praktikum 
-  for (int angka = 0; angka <= 201; angka++) {
-    bool primaCheck = true;
-    for (int i = 2; i < angka; i++) {
-      if (angka % i == 0) {
-        primaCheck = false;
-        break;
-      }
-    }
-    if (primaCheck) {
-      print("[$angka] Ilham Yudantyo, 2141720091");
-    }
-  }
+  // for (int angka = 0; angka <= 201; angka++) {
+  //   bool primaCheck = true;
+  //   for (int i = 2; i < angka; i++) {
+  //     if (angka % i == 0) {
+  //       primaCheck = false;
+  //       break;
+  //     }
+  //   }
+  //   if (primaCheck) {
+  //     print("[$angka] Ilham Yudantyo, 2141720091");
+  //   }
+  // }
 
 }
  
