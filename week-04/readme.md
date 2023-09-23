@@ -1,3 +1,8 @@
+### Nama : Ilham Yudantyo
+### Kelas : TI-3H
+### NIM : 2141720091
+### No. Preesensi : 13
+
 # Pertemuan 04 - Dart Collections
 
 ## Praktikum 1 - Tipe Data List
