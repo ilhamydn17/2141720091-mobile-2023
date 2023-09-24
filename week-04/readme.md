@@ -114,7 +114,7 @@ Pada kode di atas adalah menunjukkan bagaimana cara untuk mengakses nilai yang a
 **Record** tidak bisa diubah nilainya, maka untuk mengganti nilai yang ada pada **record** yaitu dengan mengganti nilai yang ada pada saat inisialisasi awal.
 
 ## TUGAS PRAKTIKUM 
-### Soal dan Jawaban
+### Soal 
 1. Silakan selesaikan Praktikum 1 sampai 5, lalu dokumentasikan berupa screenshot hasil pekerjaan Anda beserta penjelasannya!
 2. Jelaskan yang dimaksud Functions dalam bahasa Dart!
 3. Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
@@ -123,3 +123,108 @@ Pada kode di atas adalah menunjukkan bagaimana cara untuk mengakses nilai yang a
 6. Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya!
 7. Jelaskan dengan contoh cara membuat return multiple value di Functions!
 8. Kumpulkan berupa link commit repo GitHub pada tautan yang telah disediakan di grup Telegram!
+### Jawaban
+2. Function adalah sebuah blok kode program yang digunakan untuk menyelesaikan suatu permasalahan tertentu, yang dapat memiliki parameter sebagai nilai yang akan diolah di dalamnya, function juga dapat mengembalikan hasil dari penyelesaian solusinya.
+3. Ada beberapa jenis parameter yang ada di function dart:
+   * **Named optional parameter** : function yang mendefinisikan nama parameter saat memeberikan value dari parameter tersebut, contohnya sebagai berikut:
+     ```
+     void greeting({name, age}){
+       print('Hello $name, you\'re age is $age');
+     }
+
+     void main() {
+       greeting(age: 22, name: 'Ilham');
+     }
+     // Akan menghasilkan output :  Hello Ilham, you're age is 22
+     ```
+     Dapat dilihat juga dengan menggunakan named parameter, kita juag dapat memberikan nilai ke parameter tanpa meilihat urutan parameter yang       ada di function
+   * **Optional parameter** : Memungkinkan untuk dapat tidak mendefinisikan parameter yang ada di function, dengan cara memberi kurung siku ([]) pada parameter yang ingin dijadikan optional parameter, contohnya sebagai berikut:
+     ```
+     void greeting(String? name, [int? age]){
+        print('Hello $name, you\'re age is $age');
+     }
+
+     void main() {
+        greeting('Ilham'); 
+     }
+
+     // akan menghasilkan : Hello Ilham, you're age is null
+     ```
+     Dengan memberikan optional parameter, ketika kita tidak mendefinisikan isi value dari parameter tersebut akan menghasilkan null, tidak menjadikan kode error.
+4. function sebagai first-class objects adalah fungsi diperlakukan sebagai objek yang sama dengan tipe data lain, seperti integer, string, atau list. Kita dapat menyimpan fungsi dalam variabel, mengirimkannya sebagai argumen ke fungsi lain, mengembalikannya dari fungsi lain. Contohnya adalah sebagai berikut:
+   ```
+     int add(int a, int b) {
+       return a + b;
+     }
+    var additionFunction = add; // Menyimpan fungsi add dalam variabel additionFunction
+    print(additionFunction(3, 4)); // Memanggil fungsi melalui variabel
+    // akan menghasilkan : 7
+   ```
+5. Anonymous function adalah function yang tidak bernama alias _nameless_ atau _anonymous_. Anonymous function ini juga dikenal dengan nama lambda. Untuk membuat lambda atau anonymous function kita cukup menuliskan tanda kurung untuk menerima parameter dan body function-nya, contohnya adalah sebagai berikut:
+   ```
+    void main() {
+      (int num1, int num2) {
+        return num1 + num2;
+      };
+    }
+   ```
+6. _Lexical scope_ atau sering disebut _static scope_ adalah konsep dalam pemrograman yang mengacu pada cara variabel dalam sebuah program diakses dan diresolusi berdasarkan struktur fisik kode program, terutama pada saat pengkodean (leksikal) dan bukan pada saat eksekusi program, contohnya adalah seperti berikut:
+   ```
+   bool topLevel = true;
+
+   void main() 
+    {
+      var insideMain = true;
+    
+      void myFunction() {
+        var insideFunction = true;
+    
+        void nestedFunction() {
+          var insideNestedFunction = true;
+    
+          assert(topLevel);
+          assert(insideMain);
+          assert(insideFunction);
+          assert(insideNestedFunction);
+        }
+      }
+    }
+   ```
+   sedangkan _Lexical Closure_ adalah Penutupan adalah _function object_ yang memiliki akses ke variabel dalam _lexical scope_-nya, meskipun fungsi tersebut digunakan di luar _scope_ aslinya. Contohnya adalah sebagai berikut:
+   ```
+   /// Returns a function that adds [addBy] to the
+   /// function's argument.
+    Function makeAdder(int addBy) {
+      return (int i) => addBy + i;
+    }
+    
+    void main() {
+      // Create a function that adds 2.
+      var add2 = makeAdder(2);
+    
+      // Create a function that adds 4.
+      var add4 = makeAdder(4);
+    
+      assert(add2(3) == 5);
+      assert(add4(3) == 7);
+    }
+   ```
+7. Untuk membuat return multiple value di functions Dart, kita dapat membuat function tersebut yang bertipe **record**. **Record** adalah tipe data baru yang ada di dalam dart. Contoh pembuatan function-nya adalah sebagai berikut:
+   ```
+   (int, String) foo() {
+      return (42, "foobar");
+   } 
+
+    void main() {
+      var (a,b) = foo();
+      print("int: ${a}");
+      print("String: ${b}");
+    }
+
+    /*
+      Akan menghasilkan kode berikut:
+      int: 42
+      String: foobar
+   */
+   ```
+   Pada kode di atas, membuat function yang bertipe kembalian **record** yang diberi nama "foo()". Kemudian pada function main() dilakukan inisialiasi variabel yang bertipe **record** yang memiliki nilai a dan b, yang mana variabel tersebut akan memanggil function foo(), function foo() akan mengembalikan 2 nilainya.
