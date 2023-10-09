@@ -1,3 +1,8 @@
+Nama : Ilham Yudantyo <br>
+Kelas : TI-3H <br>
+NIM : 2141720091 <br>
+No. Presensi : 13 <br><br>
+
 # Praktikum Mobile Pertemuan 5
 ## Praktikum 1
 ### Part 1
