@@ -437,6 +437,6 @@ class FavoritesPage extends StatelessWidget {
 
 ```
 ### Hasil
-<img src="/week-05/docs/prak4_5.png" width="250"> <img src="/week-05/docs/prak4_5_2.png" width="250"> <img src="/week-05/docs/prak4_5_3.png" width="250"> <br><br>
+<img src="/week-05/docs/tugas_praktikum.png" width="400">
 
 
