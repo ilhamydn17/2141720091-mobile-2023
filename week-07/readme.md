@@ -157,5 +157,31 @@ class Desc extends StatelessWidget {
 
 ```
 #### Output Program Praktikum 
+<img src="/week-07/docs/praktikum.png" width="400"> <br><br>
+
+### Tugas Praktikum (Percobaan Layouting Flutter)
+#### 1. Axis and Alignment
+<img src="/week-07/docs/1_mainAxisAlignment.png" width="400"> <br>
+#### 2. Axis and Alignment (Cross Axis Alignment)
+<img src="/week-07/docs/2_crossAxisAlignment.png" width="400"> <br>
+#### 3. Flexible Widget
+<img src="/week-07/docs/3_flexibleWidget.png" width="400"> <br>
+#### 4. Expanded Widget
+<img src="/week-07/docs/4_expandedWidget.png" width="400"> <br>
+#### 5. Sized Box Widget (Resizing Widget)
+<img src="/week-07/docs/5_sizedBox_resizingWidget.png" width="400"> <br>
+#### 6. Sized Box Widget (Creating Space)
+<img src="/week-07/docs/6_sizedBox_creatingSpace.png" width="400"> <br>
+#### 7. Spacer Widget
+<img src="/week-07/docs/7_spacerWidget.png" width="400"> <br>
+#### 8. Text Widget
+<img src="/week-07/docs/8_textWidget.png" width="400"> <br>
+#### 9. Icon widget
+<img src="/week-07/docs/10_iconWidget.png" width="400"> <br>
+#### 10. Image widget
+<img src="/week-07/docs/11_image_widget.png" width="400"> <br>
+#### 11. Mixing Task
+<img src="/week-07/docs/12_mixing.png" width="400"> <br>
+
 
 
