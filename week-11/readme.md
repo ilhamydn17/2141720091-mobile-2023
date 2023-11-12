@@ -33,4 +33,10 @@ Pada hasil praktikum 1, yaitu membuat aplikasi sederhana untuk membuat todo-list
 
 ### Praktikum 3
 #### Hasil Praktikum 3
-![prak3](https://github.com/ilhamydn17/2141720091-mobile-2023/assets/88663672/4042c5f4-d781-46ab-ac23-92f40e5fd602)
+![prak3](https://github.com/ilhamydn17/2141720091-mobile-2023/assets/88663672/4042c5f4-d781-46ab-ac23-92f40e5fd602) <br>
+1. Berdasarkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram!
+   
+   Berdasarkan gambar diagram tersebut dapat diketahui bahwa terdapat dua halaman/screen yang ditampilkan ke pengguna. Pada halaman/screen yang pertama digunakan untuk menambah rencana/plan baru, sedangkan pada screen yang kedua akan menampilkan detail dari masing-masing rencana/plan, dan juga dapat digunakan untuk membuat todo-list dari rencana-rencana yang telah dibuat, yang mana ketika salah satu data dari screen pertama (rencana/plan) ditekan maka akan diarahkan oleh Navigator.push untuk menampilkan halaman yang kedua. Dalam diagram tersebut terdapat juga Plan Provider yang berguna untuk mengirimkan/membawa data rencana/plan dari screen pertama ke screen kedua.  
+2. Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat! <br>
+   ![prak3](https://github.com/ilhamydn17/2141720091-mobile-2023/assets/88663672/4042c5f4-d781-46ab-ac23-92f40e5fd602) <br>
+   Gambar diatas adalah hasil dari langkah 14 praktikum. Pada langkah ini telah dilakukan perubahan, yaitu pada file plan_provider.dart, plan_screen.dart, dan main.dart, yang mana maksud dari perubahan kode ini adalah untuk memperjelas penggunaan aplikasi agar lebih efisien dan juga untuk lebih jauh mengetahui tentang bagaimana untuk mengelola sebuah state yang digunakakan saat pembuatan aplikasi dengan flutter. Pada praktikum 3 aplikasi Management Plan lebih diperjelas, yaitu pada halaman pertama digunakan untuk membuat dan melihat rencana-rencana yang dibuat pengguna. Kemudian dari masing-masing rencana dari screen pertama jika ditekan akan diarahkan ke halaman yang kedua, yaitu untuk melihat detail dari rencana tadi. Pada halaman yang kedua ini dapat digunakan untuk membuat todo-list berdasarkan rencana-rencana dari screen pertama yang telah dipilih. Data yang ada screen kedua juga dibawa oleh ``PlanProvider`` yang digunakan untuk membawa informasi dari screen pertama ke screen kedua.
