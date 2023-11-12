@@ -17,4 +17,20 @@ Pada hasil praktikum 1, yaitu membuat aplikasi sederhana untuk membuat todo-list
   => Maksud dari kode tersebut adalah membuat dan mengelola ScrollController untuk mengontrol perilaku scroll dalam widget. Inisialisasi dilakukan saat widget pertama kali dibuat, dan pembersihan dilakukan saat widget dihancurkan untuk menghindari kebocoran memori. <br>
     function **initState()** dipanggil saat widget pertama kali dibuat. Dalam function tersebut setiap kali terjadi perubahan scroll, akan meminta fokus dari elemen-elemen yang mungkin sedang difokuskan, sehingga menghilangkan fokus dari elemen-elemen tersebut. Fungsi **dispose()** akan dipanggil saat widget dihancurkan, dalam fungsi ini akan melakukan _dispose_  atau membersihkan sumber daya yang tidak lagi diperlukan, dalam hal ini adalah ScrollController.
 ### Praktikum 2
+#### Hasil Praktikum 2
+![prak2](https://github.com/ilhamydn17/2141720091-mobile-2023/assets/88663672/9437b73f-3618-4592-9012-54e890996b03)
+1. Jelaskan mana yang dimaksud InheritedWidget pada langkah 1 tersebut! Mengapa yang digunakan InheritedNotifier?
+   
+   InheritedWidget adalah sebuah widget yang memungkinkan widget-widget turunannya untuk mengakses data yang disimpan di dalamnya. InheritedWidget digunakan untuk berbagi data di antara widget-widget yang tidak memiliki hubungan induk-anak secara langsung.
+
+   InheritedNotifier adalah subclass dari InheritedWidget yang menyediakan yang memudahkan mengelola data yang dapat berubah dan memberitahukan perubahan tersebut ke widget-widget turunannya. InheritedNotifier menggunakan objek ValueNotifier untuk menyimpan data yang dapat berubah.
+2. Jelaskan maksud dari method di langkah 3 pada praktikum tersebut! Mengapa dilakukan demikian?
+   
+   Function completedCount dan completenessMessage adalah method getter yang digunakan untuk mendapatkan jumlah tugas yang telah diselesaikan dan pesan kelengkapan tugas. Kedua metode ini digunakan untuk mendapatkan informasi tentang kelengkapan tugas pada tiap **plan** yang dibuat oleh user. Informasi ini dapat digunakan untuk menampilkan kemajuan rencana kepada pengguna atau untuk mengambil tindakan lebih lanjut. 
+3. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat! <br>
+   ![prak2](https://github.com/ilhamydn17/2141720091-mobile-2023/assets/88663672/9437b73f-3618-4592-9012-54e890996b03) <br>
+   SafeArea merupakan widget yang digunakan untuk menghindari tumpang tindih antara aplikasi yang dibuat flutter dan elemen UI sistem yang berada di papan notifikasi bagian atas.
+
 ### Praktikum 3
+#### Hasil Praktikum 3
+![prak3](https://github.com/ilhamydn17/2141720091-mobile-2023/assets/88663672/4042c5f4-d781-46ab-ac23-92f40e5fd602)
